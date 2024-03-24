@@ -30,3 +30,9 @@ console.log("number is :"+ num)
 let a=3     //number
 let b= "3"  //string
 console.log(a === b)
+
+// ** Assignment
+/*
+1. Learn about Operators in js
+2. How the Browser works?
+*/

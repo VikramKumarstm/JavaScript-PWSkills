@@ -32,3 +32,43 @@ if(score > 99) {
 
 console.log(`your score is ${score} and your life is ${life}
 and your bullets are ${bullets}`)
+
+
+/**
+ * Build a rating system for pizzahut
+ * 
+ * 1 star - poor
+ * 2 star - emm, ok
+ * 3 star - average
+ * 4 star - cool
+ * 5 star - great
+ * 6 star - awesome
+ * 7 star - nailed it
+ */
+
+let getStarFromUser = "12";
+let star = parseInt(getStarFromUser)
+if(star == 1) {
+    console.log("Poor");
+}
+else if(star == 2) {
+    console.log("emm, ok");
+}
+else if(star == 3) {
+    console.log("average");
+}
+else if(star == 4) {
+    console.log("cool");
+}
+else if(star == 5) {
+    console.log("great");
+}
+else if(star == 6) {
+    console.log("awesome");
+}
+else if(star == 7) {
+    console.log("nailed it");
+}
+else {
+    console.log("I don't know that rating")
+}

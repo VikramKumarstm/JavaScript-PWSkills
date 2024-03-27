@@ -146,3 +146,15 @@ if(googleLoginToken || githubLoginToken) {
 } else {
     console.log("Please login to view your account");
 }
+
+let age = 17
+
+// if(age >= 18) {
+//     console.log("You get the driving license");
+// } else {
+//     console.log("You are not eligible for driving license");
+// }
+
+const result = (age >= 18)?console.log("You get the driving license") : console.log("You are not eligible for driving license")
+console.log(result)
+

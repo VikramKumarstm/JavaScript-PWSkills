@@ -72,3 +72,77 @@ else if(star == 7) {
 else {
     console.log("I don't know that rating")
 }
+
+console.log("********************************************");
+
+//Login System
+//if email is present, ask for password. otherwise ask for email
+
+const email = ""
+
+if(email) {
+    console.log("Please enter your password");
+}
+else {
+    console.log("Please enter Your email");
+}
+
+// if(email != "") {
+//     console.log("Please provide password");
+// } else {
+//     console.log("Please enter your email");
+// }
+
+console.log(Boolean(email))
+
+//truthy & falsy
+
+//falsy values
+/**
+ * false
+ * 0        (-0 and BigInt 0n)
+ * ""
+ * null
+ * undefined
+ * NaN
+ */
+
+console.log("**********************************")
+
+//if user provides email, password, then allow login else ask for it
+
+let email1 = "abhijit@pw.live"
+let password = "12344"
+
+if(email1) {
+    if(password) {
+        console.log("Welcome to the app")
+    } else {
+        console.log("Please enter your password")
+    }
+} else {
+    console.log("Please enter your email")
+}
+
+
+//Logical Operators
+//&& -> AND;
+//|| -> OR
+
+if(email1 && password) {
+    console.log("Welcome to the app");
+} else {
+    console.log("Please enter email & password");
+}
+
+
+//allow user to singin with google or github
+
+const googleLoginToken = ""
+const githubLoginToken = ""
+
+if(googleLoginToken || githubLoginToken) {
+    console.log("Welcome to the app");
+} else {
+    console.log("Please login to view your account");
+}

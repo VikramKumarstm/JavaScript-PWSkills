@@ -156,5 +156,5 @@ let age = 17
 // }
 
 const result = (age >= 18)?console.log("You get the driving license") : console.log("You are not eligible for driving license")
-console.log(result)
+// console.log(result)
 

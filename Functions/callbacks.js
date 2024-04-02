@@ -7,6 +7,7 @@ function processArray(array, fn) {
 
     for(let i=0; i< array.length; i++) {
         console.log("index", i, "value", array[i], "return value of fn", fn(array[i]));
+        // i -> index, array[i] -> value at the ith index, fn(array[i]) -> it will pass array[i] as argument to fn
     }
 }
 
